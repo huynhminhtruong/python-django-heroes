@@ -38,3 +38,10 @@ structure = {
         'mysite/wsgi.py': 'An entry-point for WSGI-compatible web servers to serve your project. See How to deploy with WSGI for more details.'
     }
 }
+
+config: {
+    django: {
+        'Change port': 'python manage.py runserver 8080', 
+        'Change IP vs Port': 'python manage.py runserver 0:8000'
+    }
+}

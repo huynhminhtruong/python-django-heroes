@@ -24,7 +24,7 @@ django = {
 }
 
 database = {
-
+    migrations: ''
 }
 
 structure = {

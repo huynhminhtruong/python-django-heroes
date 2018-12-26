@@ -24,7 +24,9 @@ django = {
 }
 
 database = {
-    migrations: ''
+    migrations: '', 
+    apply_installed_app: 'python manage.py migrate', 
+    create_activate_model: 'python manage.py makemigrations name-of-app'
 }
 
 structure = {

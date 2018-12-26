@@ -20,13 +20,15 @@ django = {
             >>> print(django.get_version())
         `, 
         commandline: 'python -m django --version'
-    }
+    }, 
+    create_user: 'python manage.py createsuperuser'
 }
 
 database = {
-    migrations: '', 
     apply_installed_app: 'python manage.py migrate', 
-    create_activate_model: 'python manage.py makemigrations name-of-app'
+    create_activate_model: 'python manage.py makemigrations name-of-app', 
+    'he sqlmigrate command takes migration names and returns their SQL': 'python manage.py sqlmigrate polls 0001', 
+    'run the migrations for you and manage your database schema automatically - that’s called migrate': 'python manage.py migrate'
 }
 
 structure = {

@@ -5,6 +5,13 @@ python = {
     }
 }
 
+environment = {
+    install_virtualenv: {
+        cd_project: 'cd project-name', 
+        install: 'pip install virtualenv'
+    }
+}
+
 django = {
     download: 'curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py', 
     install_pip: 'python get-pip.py', 

@@ -28,6 +28,8 @@ django = {
         `, 
         commandline: 'python -m django --version'
     }, 
+    create_project: 'django-admin startproject project-name', 
+    create_app: 'python manage.py startapp app-name', 
     create_user: 'python manage.py createsuperuser'
 }
 

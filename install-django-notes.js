@@ -34,8 +34,8 @@ django = {
 }
 
 database = {
-    apply_installed_app: 'python manage.py migrate', 
     create_activate_model: 'python manage.py makemigrations name-of-app', 
+    apply_installed_app: 'python manage.py migrate', 
     'the sqlmigrate command takes migration names and returns their SQL': 'python manage.py sqlmigrate polls 0001', 
     'run the migrations for you and manage your database schema automatically - that’s called migrate': 'python manage.py migrate'
 }

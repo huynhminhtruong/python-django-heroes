@@ -7,3 +7,21 @@
     1. Categories: id, name
     2. Supplier: id, name
     3. Products: id, category_id, name, price, image, supplier_id
+
+3. Back-End vs Front-End: 
+    1. Back end
+            Ho tro orm cho mysl
+            Odm cho mongo
+            Crud
+            Api
+            Cache
+            Tuong tac Queue
+            Cron job
+            Command exec
+
+    2. Front end
+            Binding
+            Style code
+            Tuong tac jquery
+            Ho tro progressive web app
+            Làm dc mobile tuong thich cordova

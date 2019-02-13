@@ -8,7 +8,10 @@ python = {
 environment = {
     install_virtualenv: {
         cd_project: 'cd project-name', 
-        install: 'pip install virtualenv'
+        install: 'pip install virtualenv', 
+        create_new_virtual_environment: 'virtualenv -p python name-of-environment', 
+        activate_virtualenv: 'source name-of-environment/bin/activate', 
+        deactivate_virtualenv: 'deactivate'
     }
 }
 
